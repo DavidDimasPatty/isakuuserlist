@@ -1,0 +1,27 @@
+﻿@model ListUserIsaku.Models.User
+@{
+}
+
+<h1>Edit User</h1>
+<form method="post" action="Update">
+    <div class="mb-3" style="display:none">
+        <input type="text" class="form-control" asp-for="id">
+    </div>
+
+    <div class="mb-3">
+        <label for="" class="form-label">Name</label>
+        <input type="text" class="form-control" asp-for="name">
+    </div>
+
+    <div class="mb-3">
+        <label for="" class="form-label">Plan</label>
+        <select class="form-select" aria-label="Default select example" asp-for="status">
+            <option value="0">Regular</option>
+            <option value="1">Full Service</option>
+
+        </select>
+    </div>
+
+
+    <button type="submit" class="btn btn-dark">Edit</button>
+</form>

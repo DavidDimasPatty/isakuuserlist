@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "677e9UU5zrVyHN/PEb8oglBKMBFPv1B2qWEIfU8RdG5rlJRfHfffH2tnEVk6tndcxpZOznPzSOTTvAtqBdrC9w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Intel\\Documents\\NGODING\\ASP.NET\\ListUserIsaku\\ListUserIsaku\\ListUserIsaku.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Intel\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\Intel\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.1\\microsoft.extensions.logging.abstractions.7.0.1.nupkg.sha512",
+    "C:\\Users\\Intel\\.nuget\\packages\\mysqlconnector\\2.3.1\\mysqlconnector.2.3.1.nupkg.sha512",
+    "C:\\Users\\Intel\\.nuget\\packages\\mysqlconnector.dependencyinjection\\2.3.1\\mysqlconnector.dependencyinjection.2.3.1.nupkg.sha512"
+  ],
+  "logs": []
+}

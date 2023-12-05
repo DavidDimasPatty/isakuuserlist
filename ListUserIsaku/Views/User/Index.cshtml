@@ -1,0 +1,42 @@
+﻿@model List<ListUserIsaku.Models.User>
+@{
+
+}
+
+<h1>User</h1>
+
+<a href="User/Add" class="btn btn-dark" role="button">Add</a>
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">ID</th>
+            <th scope="col">Nama</th>
+            <th scope="col">Status</th>
+            <th scope="col">Joined Date</th>
+            <th>Action</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var user in Model)
+        {
+            <tr>
+                <td scope="row">@user.id</td>
+                <td>@user.name</td>
+                <td>
+                    @if (user.status == 1)
+                    {
+                        <span>Full Service</span>
+                    }
+                    else
+                    {
+                        <span>Regular</span>
+                    }
+                </td>
+                <td>@user.joinedDate.ToString().Substring(0,10)</td>
+                <td><a href="User/Update/@user.id">Edit</a></td>
+                <td><a href="User/Delete/@user.id">Delete</a></td>
+            </tr>
+        }
+    </tbody>
+</table>
